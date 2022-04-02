@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WORDLE </title>
+    <link rel="stylesheet" href="./css/wordle.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+</head>
+<body>
+    <div class="layout">
+        <div class="modal">
+            <div class="game_over">
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="game_start">
+                <h3> Enter an existing 5-letter word </h3>
+                <input type="text" autofocus>
+            </div>
+        </div>
+    </div>
+    <div class="message"><h3></h3></div>
+    <div class="wordle">
+        <div class="header">
+            <h2> WORDLE </h2>
+        </div>
+        <div class="fields">
+            <div class="words">
+                <div class="word">
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                </div>
+                <div class="word">
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                </div>
+                <div class="word">
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                </div>
+                <div class="word">
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                </div>
+                <div class="word">
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                </div>
+                <div class="word">
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                    <span class="letter"></span>
+                </div>
+            </div>
+        </div>
+        <div class="keyboard">
+            <div class="top">
+                <span class="key"> Й </span>
+                <span class="key"> Ц </span>
+                <span class="key"> У </span>
+                <span class="key"> К </span>
+                <span class="key"> Е </span>
+                <span class="key"> Н </span>
+                <span class="key"> Г </span>
+                <span class="key"> Ш </span>
+                <span class="key"> Щ </span>
+                <span class="key"> З </span>
+                <span class="key"> Х </span>
+                <span class="key"> Ъ </span>
+            </div>
+            <div class="center">
+                <span class="key"> Ф </span>
+                <span class="key"> Ы </span>
+                <span class="key"> В </span>
+                <span class="key"> А </span>
+                <span class="key"> П </span>
+                <span class="key"> Р </span>
+                <span class="key"> О </span>
+                <span class="key"> Л </span>
+                <span class="key"> Д </span>
+                <span class="key"> Ж </span>
+                <span class="key"> Э </span>
+                <span class="key"> ► </span>
+            </div>
+            <div class="bottom">
+                <span class="key"> Я </span>
+                <span class="key"> Ч </span>
+                <span class="key"> С </span>
+                <span class="key"> М </span>
+                <span class="key"> И </span>
+                <span class="key"> Т </span>
+                <span class="key"> Ь </span>
+                <span class="key"> Б </span>
+                <span class="key"> Ю </span>
+                <span class="key"> Ё </span>
+                <span class="key"> ◄ </span>
+            </div>
+        </div>
+    </div>
+    <script src="./js/word_list.js"></script>
+    <script src="./js/wordle.js"></script>
+</body>
+</html>
